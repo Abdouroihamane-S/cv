@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdouroihamane Said Ali | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-blur fixed-top border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase tracking-wider" href="#">ASA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link mx-2" href="#accueil">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#formations">Formations</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#experiences">Expériences</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#competences">Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <button id="themeToggle" class="btn btn-sm btn-outline-secondary rounded-pill">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil / Profil -->
+    <section id="accueil" class="d-flex align-items-center min-vh-100 pt-5">
+        <div class="container">
+            <div class="row align-items-center gy-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <span class="badge bg-secondary-subtle text-secondary px-3 py-2 rounded-pill mb-3">Développeur Full-Stack & Designer</span>
+                    <h1 class="display-4 fw-bold mb-3">Abdouroihamane <br><span class="text-primary">Said Ali</span></h1>
+                    <p class="lead text-muted mb-4">
+                        Passionné par le développement web et le design graphique, je conçois des interfaces modernes, épurées et performantes en alliant logique technique et sensibilité esthétique.
+                    </p>
+                    <a href="#contact" class="btn btn-primary px-4 py-2 me-2 rounded-pill">Me contacter</a>
+                    <a href="https://wa.me/221777787404" target="_blank" class="btn btn-success px-4 py-2 rounded-pill">
+                        <i class="fab fa-whatsapp me-2"></i>WhatsApp
+                    </a>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="profile-img-container shadow-lg">
+                        <img src="WhatsApp Image 2026-06-07 at 00.14.51.jpeg" alt="Abdouroihamane Said Ali" class="img-fluid profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Formations -->
+    <section id="formations" class="py-5 bg-light-section">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Formations</h2>
+                <div class="heading-line mx-auto"></div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4 card-hover">
+                        <div class="icon-shape mb-3 text-primary"><i class="fas fa-code fa-2x"></i></div>
+                        <h4 class="fw-bold h5">Développement Web</h4>
+                        <p class="text-muted small">Maîtrise des standards du web pour créer des applications robustes et interactives.</p>
+                        <span class="text-secondary font-monospace small">HTML, CSS, JS, PHP, MySQL</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4 card-hover">
+                        <div class="icon-shape mb-3 text-success"><i class="fas fa-palette fa-2x"></i></div>
+                        <h4 class="fw-bold h5">Design Graphique</h4>
+                        <p class="text-muted small">Création d'univers visuels cohérents, gestion de la typographie et mise en page d'affiches.</p>
+                        <span class="text-secondary font-monospace small">Photoshop, Typographie, Affiches</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4 card-hover">
+                        <div class="icon-shape mb-3 text-info"><i class="fas fa-tools fa-2x"></i></div>
+                        <h4 class="fw-bold h5">Outils Numériques</h4>
+                        <p class="text-muted small">Utilisation de frameworks modernes et gestion optimisée des structures de données.</p>
+                        <span class="text-secondary font-monospace small">Bootstrap, Bases de données</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Expériences -->
+    <section id="experiences" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Expérience Professionnelle</h2>
+                <div class="heading-line mx-auto"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item ps-4 border-start border-2 border-primary position-relative mb-4 pb-2">
+                    <div class="timeline-dot bg-primary"></div>
+                    <h4 class="fw-bold h5 mb-1">Développement Web</h4>
+                    <p class="text-muted mb-2">Conception d'interfaces & Intégration Front-end / Back-end</p>
+                    <p class="small text-secondary">Architecture de solutions web fluides et interconnectées, garantissant une expérience utilisateur optimale.</p>
+                </div>
+                <div class="timeline-item ps-4 border-start border-2 border-primary position-relative mb-4 pb-2">
+                    <div class="timeline-dot bg-primary"></div>
+                    <h4 class="fw-bold h5 mb-1">Gestion de Bases de Données</h4>
+                    <p class="text-muted mb-2">Création, requêtes et optimisation sous MySQL</p>
+                    <p class="small text-secondary">Modélisation de structures de données rigoureuses et écriture de requêtes optimisées pour la performance.</p>
+                </div>
+                <div class="timeline-item ps-4 border-start border-2 border-primary position-relative mb-4 pb-2">
+                    <div class="timeline-dot bg-primary"></div>
+                    <h4 class="fw-bold h5 mb-1">Supports Visuels & Design</h4>
+                    <p class="text-muted mb-2">Affiches, typographie et retouche graphique</p>
+                    <p class="small text-secondary">Conception de supports de communication visuelle avec un souci aiguisé du détail et de l'harmonie des couleurs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="py-5 bg-light-section">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Compétences & Langues</h2>
+                <div class="heading-line mx-auto"></div>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <h3 class="h5 fw-bold mb-4"><i class="fas fa-laptop-code me-2 text-primary"></i>Expertise Technique</h3>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between mb-1 small"><span>HTML / CSS / Bootstrap</span><span>90%</span></div>
+                        <div class="progress rounded-pill" style="height: 6px;"><div class="progress-bar" style="width: 90%"></div></div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between mb-1 small"><span>PHP / MySQL</span><span>85%</span></div>
+                        <div class="progress rounded-pill" style="height: 6px;"><div class="progress-bar" style="width: 85%"></div></div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between mb-1 small"><span>JavaScript</span><span>75%</span></div>
+                        <div class="progress rounded-pill" style="height: 6px;"><div class="progress-bar" style="width: 75%"></div></div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between mb-1 small"><span>Photoshop / Design graphique</span><span>80%</span></div>
+                        <div class="progress rounded-pill" style="height: 6px;"><div class="progress-bar" style="width: 80%"></div></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="h5 fw-bold mb-4"><i class="fas fa-user-cog me-2 text-primary"></i>Atouts & Langues</h3>
+                    <div class="row g-2 mb-4">
+                        <div class="col-auto"><span class="badge bg-white text-dark border p-2 rounded">Rigueur</span></div>
+                        <div class="col-auto"><span class="badge bg-white text-dark border p-2 rounded">Sens de l'esthétique</span></div>
+                        <div class="col-auto"><span class="badge bg-white text-dark border p-2 rounded">Autonomie</span></div>
+                        <div class="col-auto"><span class="badge bg-white text-dark border p-2 rounded">Créativité</span></div>
+                        <div class="col-auto"><span class="badge bg-white text-dark border p-2 rounded">Travail méthodique</span></div>
+                    </div>
+                    
+                    <h3 class="h5 fw-bold mb-3">Langues</h3>
+                    <ul class="list-unstyled custom-list text-muted">
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i><strong>Français :</strong> Courant</li>
+                        <li><i class="fas fa-check text-success me-2"></i><strong>Anglais :</strong> Technique</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Contact</h2>
+                <div class="heading-line mx-auto"></div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-10 text-center">
+                    <p class="text-muted mb-5">Un projet ? Une opportunité de collaboration ? N'hésitez pas à me joindre.</p>
+                    <div class="row g-3 justify-content-center">
+                        <!-- Carte Email -->
+                        <div class="col-md-4">
+                            <div class="p-3 border rounded shadow-sm bg-body h-100 d-flex flex-column align-items-center justify-content-center">
+                                <i class="fas fa-envelope fa-2x text-primary mb-2"></i>
+                                <h6 class="fw-bold">Email</h6>
+                                <a href="mailto:abdouroihamane7@icloud.com" class="text-decoration-none text-secondary small">contact@abdouroihamane.com</a>
+                            </div>
+                        </div>
+                        <!-- Carte WhatsApp --> 
+                        <div class="col-md-4">
+                            <div class="p-3 border rounded shadow-sm bg-body h-100 d-flex flex-column align-items-center justify-content-center border-success-subtle">
+                                <i class="fab fa-whatsapp fa-2x text-success mb-2"></i>
+                                <h6 class="fw-bold">WhatsApp</h6>
+                                <a href="https://wa.me/221777787404" target="_blank" class="text-decoration-none text-secondary small">+221 77 778 74 04</a>
+                            </div>
+                        </div>
+                        <!-- Carte Localisation -->
+                        <div class="col-md-4">
+                            <div class="p-3 border rounded shadow-sm bg-body h-100 d-flex flex-column align-items-center justify-content-center">
+                                <i class="fas fa-map-marker-alt fa-2x text-primary mb-2"></i>
+                                <h6 class="fw-bold">Localisation</h6>
+                                <span class="text-secondary small">Dakar, Sénégal</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="py-4 border-top text-center text-muted small bg-body">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Abdouroihamane Said Ali. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
